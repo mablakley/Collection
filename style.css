@@ -1,36 +1,343 @@
-body {
-    display: block;
-    width: 100%;
-    background-color: #70c1ff;
-    margin: 0px;
+/* phone view */
+@media (max-width: 680px) {
+    body {
+        display: block;
+        width: 100%;
+        background-color: #70c1ff;
+        margin: 0px;
+    }
+
+    /* full display */
+    .display {
+        display: block;
+        height: 100%;
+        width: 100%;
+        /* border: black solid; */
+        /* margin: 0 auto; */
+        /* background-color:red; */
+    }
+
+    /* top text and image */
+    .logotxt {
+        display: flex;
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        margin-left: 8vw;
+    }
+
+    .timg {
+        position: relative;
+        width: 100px;
+        top: -10px;
+    }
+
+
+    /* inputs single */
+    /*        */
+    .nameInput {
+        padding: 10px;
+        display: flex;
+        font-size: 3.7vw;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 80vw;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
+    }
+
+    .teamInput {
+        padding: 10px;
+        display: flex;
+        font-size: 3.7vw;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 80vw;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
+    }
+
+    .draftInput {
+        padding: 10px;
+        display: flex;
+        font-size: 3.7vw;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 80vw;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
+    }
+
+    .pIinput {
+        padding: 10px;
+        display: flex;
+        font-size: 3.7vw;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 80vw;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
+    }
+
+
+
+    /* inputs div/box */
+    .nputs {
+        /* border: black solid; */
+        padding-top: 2vw;
+    }
+
+    /* button */
+    .add {
+        background-color: #e0e3e4;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left: 55px;
+        padding-right: 55px;
+        margin: 2vw;
+        font-size: 4vw;
+        display: flex;
+        position: relative;
+        left: 55vw;
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        border-radius: 30px;
+
+    }
+
+    .result {
+        color: black;
+
+    }
+
+    .player {
+        /* border: black solid; */
+        display: flex;
+
+    }
+
+    .pimg {
+        /* margin: 0 auto; */
+        /* width: 100%; */
+        display: flex;
+        /* border: black solid; */
+        width: 40%;
+        height: 100%;
+        position: relative;
+        top: 4.5vw;
+
+    }
+
+    .holders {
+        /* border:black solid; */
+        color: black;
+        font-size: 5vw;
+        margin-left: 3vw;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+    }
+
+    .imgholder {
+        /* border: black solid; */
+        width: 100%;
+    }
 }
 
-/* full display */
-.display {
-    display: block;
-    height: 200px;
-    width: 100%;
 
-    border: black solid;
-    /* margin: 0 auto; */
-    /* background-color:red; */
-}
 
-/* top text and image */
-.logotxt {
-    margin-left: 8vw;
-}
+/* max view */
+@media (min-width: 681px) {
 
-/* inputs */
-.name {
-    
-    display: flex;
-    font-size:4vw;
-    margin: 0 auto;
-    margin-bottom:4px;
-    width:80vw;
-    background-color: transparent;
-    border: solid 2px;
-    border-color: black;
-    
+    body {
+        display: block;
+        width: 100%;
+        background-color: #70c1ff;
+        margin: 0px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    /* full display */
+    .display {
+        display: block;
+        height: 100%;
+        width: 680px;
+
+        /* border: rgb(255, 0, 0) solid; */
+        margin: 0 auto;
+        background-color: #70c1ff;
+    }
+
+    /* top text and image */
+    .logotxt {
+        display: flex;
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        margin-left: 0vw;
+    }
+
+    .timg {
+        position: relative;
+        width: 100px;
+        top: -10px;
+
+    }
+
+    /* inputs single */
+    /*        */
+    .nameInput {
+        padding: 10px;
+        display: flex;
+        font-size: 3.7vw;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 80vw;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+    }
+
+    .teamInput {
+        padding: 10px;
+        display: flex;
+        font-size: 25px;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 650px;
+        margin-left: 0;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+    }
+
+    .draftInput {
+        padding: 10px;
+
+        display: flex;
+        font-size: 25px;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 650px;
+        margin-left: 0;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+    }
+
+    .pIinput {
+        padding: 10px;
+
+        display: flex;
+        font-size: 25px;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 650px;
+        margin-left: 0;
+        background-color: transparent;
+        border: solid 2px;
+        border-color: #595959;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+    }
+
+
+
+    /* inputs div/box */
+    .nputs {
+        /* border: black solid; */
+        padding-top: 2vw;
+    }
+
+    /* button */
+    .add {
+        margin: 2vw;
+        font-size: 35px;
+        display: flex;
+        position: relative;
+        left: 500px;
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .result {
+        color: black;
+
+    }
+
+    .player {
+        /* border: black solid; */
+        display: flex;
+
+    }
+
+    .pimg {
+        /* margin: 0 auto; */
+        /* width: 100%; */
+        display: flex;
+        /* border: black solid; */
+        width: 40%;
+        height: 100%;
+        position: relative;
+        top: 4.5vw;
+
+    }
+
+    .holders {
+        /* border:black solid; */
+        color: black;
+        font-size: 35px;
+        margin-left: 3vw;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        -webkit-text-fill-color: rgb(0, 0, 0);
+    }
+
+    .imgholder {
+        /* border: black solid; */
+        width: 100%;
+    }
+
 }
