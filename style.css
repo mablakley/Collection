@@ -215,10 +215,10 @@
     .nameInput {
         padding: 10px;
         display: flex;
-        font-size: 3.7vw;
+        font-size: 16px;
         margin: 0 auto;
         margin-bottom: 2vw;
-        width: 80vw;
+        width: 545px;
         background-color: transparent;
         border: solid 2px;
         border-color: #595959;
@@ -226,16 +226,16 @@
         font-weight: 700;
         font-style: normal;
         -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
     }
 
     .teamInput {
         padding: 10px;
         display: flex;
-        font-size: 25px;
+        font-size: 16px;
         margin: 0 auto;
         margin-bottom: 2vw;
-        width: 650px;
-        margin-left: 0;
+        width: 545px;
         background-color: transparent;
         border: solid 2px;
         border-color: #595959;
@@ -243,17 +243,16 @@
         font-weight: 700;
         font-style: normal;
         -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
     }
 
     .draftInput {
         padding: 10px;
-
         display: flex;
-        font-size: 25px;
+        font-size: 16px;
         margin: 0 auto;
         margin-bottom: 2vw;
-        width: 650px;
-        margin-left: 0;
+        width: 545px;
         background-color: transparent;
         border: solid 2px;
         border-color: #595959;
@@ -261,17 +260,16 @@
         font-weight: 700;
         font-style: normal;
         -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
     }
 
     .pIinput {
         padding: 10px;
-
         display: flex;
-        font-size: 25px;
+        font-size: 16px;
         margin: 0 auto;
         margin-bottom: 2vw;
-        width: 650px;
-        margin-left: 0;
+        width: 545px;
         background-color: transparent;
         border: solid 2px;
         border-color: #595959;
@@ -279,6 +277,7 @@
         font-weight: 700;
         font-style: normal;
         -webkit-text-fill-color: rgb(0, 0, 0);
+        border-radius: 30px;
     }
 
 
@@ -291,14 +290,21 @@
 
     /* button */
     .add {
+        background-color: #e0e3e4;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left: 55px;
+        padding-right: 55px;
         margin: 2vw;
-        font-size: 35px;
+        font-size: 25px;
         display: flex;
         position: relative;
-        left: 500px;
+        left: 400px;
         font-family: "Lato", sans-serif;
         font-weight: 900;
         font-style: normal;
+        border-radius: 30px;
+
     }
 
     .result {
