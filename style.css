@@ -1,0 +1,36 @@
+body {
+    display: block;
+    width: 100%;
+    background-color: #70c1ff;
+    margin: 0px;
+}
+
+/* full display */
+.display {
+    display: block;
+    height: 200px;
+    width: 100%;
+
+    border: black solid;
+    /* margin: 0 auto; */
+    /* background-color:red; */
+}
+
+/* top text and image */
+.logotxt {
+    margin-left: 8vw;
+}
+
+/* inputs */
+.name {
+    
+    display: flex;
+    font-size:4vw;
+    margin: 0 auto;
+    margin-bottom:4px;
+    width:80vw;
+    background-color: transparent;
+    border: solid 2px;
+    border-color: black;
+    
+}
